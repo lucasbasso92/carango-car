@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fundo geral da página */
+  body {
+    height: 100vh;
+    background-color: #790808; /* Grafite escuro que combina com bordô */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Caixa central */
+  div {
+    background-color: #d3d3d3; /* Cinza claro */
+    padding: 32px;
+    border-radius: 48px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Rótulos */
+  label {
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Inputs */
+  input {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  /* Botões */
+  button {
+    background-color: #800000; /* Bordô */
+    color: #000000; /* Preto */
+    font-weight: bold;
+    font-size: 18px; /* Tamanho médio-quase-grande */
+    padding: 14px 28px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efeito ao passar o mouse */
+  button:hover {
+    background-color: #a52a2a; /* Bordô mais claro */
+  }
+  
+  /* Link do parágrafo final */
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  a {
+    color: #800000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
